@@ -15,9 +15,9 @@ export const App = () => {
   // DON'T change the code below
   const increase = () => {
     setCount(prev => {
-      const newValue = prev + 1;
+      const next = prev + 1;
 
-      return newValue % 5 === 0 ? newValue + 100 : newValue;
+      return next % 5 === 0 ? next + 100 : next;
     });
 
     addOne();
